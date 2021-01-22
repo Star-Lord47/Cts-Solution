@@ -1,0 +1,90 @@
+1> SIMPLE CALCULATOR:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <font color="blue" size="20">Calculator</font>
+    <img src="calculator.jpg" alt="calculator" style="height: 80px; width: 80px;">
+    
+    <label for="input1">Input1</label>
+    <input type="number" name="input1" id="input1">
+    
+    <label for="input2">Input2</label>
+    <input type="number" name="input2" id="input2">
+    
+    <label for="operation">Select Operation</label>
+    <select name="operation" id="operation">
+        <option value="Select..">Select..</option>
+        <option value="ADD">ADD</option>
+         <option value="SUBTRACT">SUBTRACT</option>
+         <option value="MULTIPLY">MULTIPLY</option>
+       
+        <option value="DIVIDE">DIVIDE</option>
+        
+        
+2> Learning Material Styling    
+
+
+body{
+    background-color: #00FFFF; 
+    font-family:Arial; 
+    font-size:12px;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+
+dd{
+    font-size: 1.5em;
+    font-style: italic;
+    
+}
+
+p{
+    color: #FF0000;
+    font-size: 1.7em;
+    line-height: 1.5;
+}
+
+dt {
+    color: #FF0F70;
+    font:bold;
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+#description01 {
+    font-style: italic;
+    color: #F500FF;
+}
+
+#description07{
+    font-style: italic;
+    color: #FF4500;
+    font: bold;
+    font-weight: bold;
+}
+
+em{
+    color: #FF0000;
+    font:bold;
+    font-weight: bold;
+}
+
+reasons {
+    color: #FF0F70;
+    font:bold;
+    line-height:1.5;
+    font-size: 1.5em;
+    font-weight: bold;
+}        
+        
